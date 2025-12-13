@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MyPinata – App Support</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Support page for the MyPinata app – create and manage product sampling events."
+  />
+  <style>
+    :root {
+      --bg: #f9fafb;
+      --card-bg: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --accent: #facc15;
+      --accent-dark: #d4af0f;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 3rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    header h1 {
+      margin: 0 0 0.25rem;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border-radius: 1rem;
+      padding: 1.75rem 1.5rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.04);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      background-color: rgba(250, 204, 21, 0.12);
+      color: #92400e;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-bottom: 0.6rem;
+    }
+
+    .cta-box {
+      border-left: 4px solid var(--accent);
+      padding-left: 1rem;
+      margin-top: 0.75rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    ul {
+      padding-left: 1.25rem;
+      margin: 0.4rem 0 0.6rem;
+    }
+
+    li {
+      margin-bottom: 0.25rem;
+    }
+
+    .contact-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .contact-list li {
+      margin-bottom: 0.4rem;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 0.9rem;
+      padding: 0.55rem 1.2rem;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #1f2933;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      border: 1px solid var(--accent-dark);
+    }
+
+    .btn:hover {
+      background: var(--accent-dark);
+      text-decoration: none;
+    }
+
+    .faq-item {
+      margin-bottom: 0.9rem;
+    }
+
+    .faq-item h3 {
+      margin: 0 0 0.15rem;
+      font-size: 1rem;
+    }
+
+    .small {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    @media (min-width: 768px) {
+      .card {
+        padding: 2rem 2rem;
+      }
+
+      header h1 {
+        font-size: 2.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>MyPinata – App Support</h1>
+      <p>
+        Help and support for brands, field teams, and coordinators using the
+        MyPinata sampling events app.
+      </p>
+    </header>
+
+    <section class="card">
+      <span class="badge">About the App</span>
+      <h2>What is MyPinata?</h2>
+      <p>
+        MyPinata is a mobile app designed to help brands and field teams
+        <strong>create, schedule, and manage product sampling events</strong>.
+        It’s ideal for sampling new food, beverages, and other consumer
+        products in stores, events, or pop-ups.
+      </p>
+      <ul>
+        <li>Create sampling events with a simple form.</li>
+        <li>Assign locations, dates, and products to each event.</li>
+        <li>Track event details and status in one place.</li>
+      </ul>
+      <div class="cta-box">
+        If you’re new to MyPinata, start by creating your first event inside the
+        app and adding a product, date, time, and location.
+      </div>
+    </section>
+
+    <section class="card">
+      <span class="badge">Getting Started</span>
+      <h2>How to Use MyPinata</h2>
+      <ol class="small">
+        <li>Download and install the MyPinata app from the App Store.</li>
+        <li>Sign in with the credentials provided by your company or program lead.</li>
+        <li>Tap <strong>“Create Event”</strong> to set up a new sampling event.</li>
+        <li>Enter event name, date, time, and location.</li>
+        <li>Add the products you’ll be sampling (e.g., new beverages or food items).</li>
+        <li>Save the event and use the event list to review or update details.</li>
+      </ol>
+      <p class="small">
+        If you don’t see any events, your account may not be linked to a
+        program yet. Please contact your manager or support.
+      </p>
+    </section>
+
+    <section class="card">
+      <span class="badge">FAQ</span>
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <h3>Do I need an account to use the app?</h3>
+        <p class="small">
+          Yes. MyPinata is typically used by brands, agencies, or teams running
+          sampling programs. Your administrator or manager will provide your
+          login information.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>I can’t log in. What should I do?</h3>
+        <p class="small">
+          Double-check your email and password, including capitalization. If you
+          still can’t sign in, contact support so we can verify your account and
+          reset your access if needed.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>My events are not showing up.</h3>
+        <p class="small">
+          Make sure you’re signed in with the correct account. If events are
+          still missing, your account might not be assigned to any active
+          programs or locations. Please contact your manager or support with
+          your name and company.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I edit or cancel an event?</h3>
+        <p class="small">
+          Open the event from the main list, then use the edit options provided
+          inside the app. If you don’t see edit controls, changes may need to be
+          handled by your program administrator.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Which devices are supported?</h3>
+        <p class="small">
+          MyPinata is designed for iOS devices running a recent version of iOS.
+          For the best experience, keep your device and the app updated to the
+          latest version.
+        </p>
+      </div>
+    </section>
+
+    <section class="card">
+      <span class="badge">Contact</span>
+      <h2>Need More Help?</h2>
+      <p class="small">
+        If you’re experiencing an issue that isn’t covered above, please reach
+        out with as much detail as possible:
+      </p>
+      <ul class="contact-list small">
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:mypinata@mypinata.com">mypinata@mypinata.com</a>
+        </li>
+        <li>
+          <strong>Include:</strong> your name, company, device model, iOS
+          version, and a brief description of the issue.
+        </li>
+      </ul>
+      <a class="btn" href="mailto:mypinata@mypinata.com">Contact Support</a>
+    </section>
+
+    <footer>
+      &copy; 2025 MyPinata. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
